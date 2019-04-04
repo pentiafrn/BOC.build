@@ -1,0 +1,28 @@
+# For more information look here: http://EditorConfig.org, find plugins for your editor here: http://editorconfig.org/#download
+
+# top-most EditorConfig file
+root = true
+
+[*]
+insert_final_newline = false
+
+# JavaScript
+[*.{js,ts,jsx,tsx}]
+indent_style = tab
+
+# JSON
+[*.json]
+indent_style = tab
+
+# Styles
+[*.{less,scss,css}]
+indent_style = tab
+
+# Templating
+[*.{mustache,hbs,handlebars}]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
